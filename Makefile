@@ -133,6 +133,7 @@ UPROGS=\
 	$U/_forkit\
 	$U/_ioit\
 	$U/_pipeit\
+	$U/_pingpong\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
