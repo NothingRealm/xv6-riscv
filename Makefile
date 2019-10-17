@@ -131,6 +131,7 @@ UPROGS=\
 	$U/_zombie\
 	$U/_sleep\
 	$U/_forkit\
+	$U/_ioit\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
