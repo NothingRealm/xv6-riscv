@@ -134,6 +134,7 @@ UPROGS=\
 	$U/_ioit\
 	$U/_pipeit\
 	$U/_pingpong\
+	$U/_primes\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
